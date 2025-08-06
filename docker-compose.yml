@@ -4,5 +4,7 @@ services:
   cloudflared-multi-tcp:
     build: .
     container_name: cloudflared-proxy
-    network_mode: host
+    ports:
+      - "5008:5008"
+      - "5020:5020"
     restart: always

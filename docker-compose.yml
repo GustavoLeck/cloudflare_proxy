@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  cloudflared-multi-tcp:
+    build: .
+    container_name: cloudflared-multi-tcp
+    network_mode: host  
+    restart: always

@@ -1,8 +1,8 @@
 #!/bin/sh
 
-cloudflared access tcp --hostname teste7.leck.com.br --url localhost:5007 &
-cloudflared access tcp --hostname teste8.leck.com.br --url localhost:5008 &
-cloudflared access tcp --hostname teste9.leck.com.br --url localhost:5009 &
+cloudflared access tcp --hostname teste20.leck.com.br --url 0.0.0.0:5020 &
+
 
 
 wait
+-
